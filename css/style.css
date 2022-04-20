@@ -489,3 +489,113 @@ footer .right h4{
     color: white;
     word-spacing: 1rem;
 }
+
+
+/* Responsive  */
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px){
+  html{
+    font-size: 80%;
+  }
+  header{
+    font-size: 1rem;
+  }
+  
+  .pricing_box .box{
+    height: 80vh;
+  }
+}
+@media only screen and (max-width: 904px){
+  html{
+    font-size: 60%;
+  }
+  .home{
+    margin-bottom: 2rem;
+    font-size: 1rem;
+  }
+  
+  .pricing_box .box{
+    height: 70vh;
+  }
+}
+
+@media only screen and (max-width: 669px){
+  html{
+    font-size: 50%;
+  }
+  .pricing_box .box{
+    height: 60vh;
+  }
+}
+@media only screen and (max-width: 559px){
+  html{
+    font-size: 50%;
+  }
+  
+  .home{
+    margin-bottom: 10rem;
+    font-size: 1rem;
+  }
+  .home .h_right img{
+    margin-bottom: 10rem;
+  }
+}
+
+
+@media only screen and (max-width: 448px) {
+  html{
+    font-size: 40%;
+  }
+  
+  .home{
+    margin-bottom: 10rem;
+    font-size: 1rem;
+  }
+  .boxs .box{
+    height: 18vh;
+  }
+  .portfolio_box 
+  {
+    display: block;
+  }
+  .portfolio_box .left img,
+  .portfolio_box .middle img,
+  .portfolio_box .right img{
+    width: 50rem;
+  }
+  .customer_box .box p{
+    width: 80%;
+  }
+  .customer_box .box{
+    height: 15vh; 
+  }
+  
+  .pricing_box .box{
+    height: 50vh;
+  }
+
+  footer{
+    font-size: 1rem;
+    display: block;
+  }
+  footer .right{
+    position: relative;
+    left: 5rem;
+  }
+}
+
+@media only screen and (max-width: 340px){
+  .pricing_box .box{
+    height: 65vh;
+  }
+  .portfolio_box 
+  {
+    display: block;
+  }
+  .portfolio_box .left img,
+  .portfolio_box .middle img,
+  .portfolio_box .right img{
+    width: 35rem;
+  }
+}
