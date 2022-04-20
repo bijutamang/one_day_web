@@ -572,7 +572,7 @@ footer .right h4{
   }
   
   .pricing_box .box{
-    height: 50vh;
+    height: 65vh;
   }
 
   footer{
@@ -585,7 +585,7 @@ footer .right h4{
   }
 }
 
-@media only screen and (max-width: 340px){
+@media only screen and (max-width: 400px){
   .pricing_box .box{
     height: 65vh;
   }
