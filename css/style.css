@@ -1,0 +1,491 @@
+/* ---------
+Fonts
+----------- */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+/* -------------------
+Variables
+---------------------- */
+:root {
+  --main-color: #3f8905;
+  --dark-one: #21201e;
+  --dark-two: #2d2c2a;
+  --dark-three: #131212;
+  --body-color: #837863;
+  --body-background: #21201f;
+  --white: #ffffff;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--body-background);
+}
+
+main {
+  margin: 0 5rem 0 5rem;
+}
+
+/* Home Page Style */
+header {
+  display: flex;
+  justify-content: space-between;
+}
+/* Logo Section */
+.logo {
+  padding: 1rem 0 0 0;
+}
+hr {
+  position: relative;
+  background-color: var(--body-color);
+  top: 3rem;
+}
+
+h2 {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+span {
+  color: var(--main-color);
+  font-weight: 500;
+}
+/* Nav Section  */
+nav {
+  display: flex;
+}
+
+nav li {
+  list-style: none;
+  padding: 1.1rem;
+}
+nav li a {
+  text-decoration: none;
+  color: var(--white);
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+a:hover {
+  color: #3f8905;
+}
+/* Nav End  */
+/* Header End  */
+
+/* ******** Home page Section ******** */
+.home {
+  display: flex;
+  justify-content: space-between;
+}
+
+.h_left {
+  position: relative;
+  top: 10rem;
+  width: 60%;
+  color: var(--white);
+}
+
+.h_left h1 {
+  font-size: 5rem;
+  font-weight: 800;
+}
+.h_left h5 {
+  font-size: 1.2rem;
+  word-spacing: 1.9rem;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.h_left p {
+  font-size: 1rem;
+  margin-top: 0.8rem;
+  color: var(--body-color);
+}
+
+.btn {
+  font-size: 0.8rem;
+  padding: 1rem;
+  background-color: var(--main-color);
+  color: white;
+  border: none;
+  border-radius: 0.6rem;
+  margin-top: 0.8rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  cursor: pointer;
+}
+.btn:hover {
+  color: white;
+  background-color: var(--body-color);
+}
+/* rigth  */
+.h_right {
+  width: 40%;
+}
+
+img {
+  width: 80%;
+  position: relative;
+  left: 5rem;
+}
+
+/* ****** My Services Start ******  */
+.my_services {
+  margin-top: 7rem;
+}
+
+.my_services h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+.my_services p {
+  width: 50%;
+  font-size: 1rem;
+  line-height: 1.4rem;
+  color: var(--body-color);
+}
+/* Boxs  */
+.boxs {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4rem;
+}
+/* Left box  */
+.boxs .left {
+  width: 49%;
+}
+/* Box box  */
+.boxs .right {
+  width: 49%;
+}
+
+/* Box  */
+.box {
+  height: 32vh;
+  border-radius: 1rem;
+  background-color: var(--dark-two);
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+/* Box vitra ko left  */
+.box .left {
+  width: 20%;
+  position: relative;
+  right: 4rem;
+  padding: 1.5rem 0 0 0.5rem;
+}
+/* Box vitra ko right  */
+.box .right {
+  width: 80%;
+  padding: 1.5rem;
+}
+.box h3 {
+  font-size: 1.5rem;
+  word-spacing: 0.4rem;
+  text-transform: capitalize;
+  font-weight: 500;
+  color: white;
+}
+.box p {
+  margin-top: 1rem;
+  font-size: 1rem;
+  width: 100%;
+}
+/* ****** My Services End ******  */
+
+/* *********** My Portfolio *********** */
+.my_portfolio {
+  margin-top: 7rem;
+}
+
+.my_portfolio h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+.my_portfolio p {
+  width: 50%;
+  font-size: 1rem;
+  line-height: 1.4rem;
+  color: var(--body-color);
+}
+.portfolio_box {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4rem;
+}
+.portfolio_box .left,
+.portfolio_box .middle,
+.portfolio_box .right {
+  width: 32%;
+}
+.portfolio_box .img {
+  width: 100%;
+  position: relative;
+  right: 5.5rem;
+}
+
+.portfolio_box .img img {
+  width: 24.8rem;
+}
+/* *********** My Portfolio End *********** */
+
+/* *********** My Customer Section *********** */
+.my_customers {
+  margin-top: 7rem;
+}
+
+.my_customers h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+.my_customers p {
+  width: 50%;
+  font-size: 1rem;
+  line-height: 1.4rem;
+  color: var(--body-color);
+}
+/* Box  */
+.customer_box {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.customer_box .cus_left,
+.customer_box .cus_right {
+  width: 49%;
+}
+.customer_box .box {
+  height: 32vh;
+  display: block;
+}
+
+.customer_box p {
+  padding: 2px 0 0 1rem;
+  width: 100%;
+  color: white;
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+.details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.details .cus_left_d {
+  width: 20%;
+  position: relative;
+  right: 4rem;
+  color: var(--white);
+}
+.details .cus_right_d {
+  width: 80%;
+  color: var(--white);
+  padding: 0.5rem;
+}
+.cus_right_d h5 {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+h6 {
+  color: var(--main-color);
+  font-size: 1rem;
+}
+/* *********** My Portfolio End *********** */
+
+
+/* *********** My Pricing Start *********** */
+.my_pricings {
+  margin-top: 7rem;
+}
+.my_pricings h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+.my_pricings p {
+  width: 50%;
+  font-size: 1rem;
+  line-height: 1.4rem;
+  color: var(--body-color);
+}
+
+.pricing_box {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4rem;
+}
+.pricing_box .p_left,
+.pricing_box .p_middle,
+.pricing_box .p_right {
+  width: 32%;
+}
+
+.pricing_box .box {
+  height: 115vh;
+  padding: 2rem;
+  background-color: var(--dark-three);
+  display: block;
+}
+.pricing_box .box .top h5 {
+  font-size: 1.2rem;
+  color: white;
+}
+.pricing_box .box .top h4 {
+  font-size: 2.4rem;
+  font-weight: 500;
+  color: white;
+}
+.pricing_box .box .top p {
+  font-size: 1rem;
+  color: var(--body-color);
+}
+.pricing_box .box .top hr {
+  opacity: 0.2;
+}
+.pricing_box .box .bottom {
+  margin-top: 5rem;
+}
+
+.pricing_box .bottom .p_bts {
+  width: 11rem;
+  letter-spacing: 3px;
+  padding: 1rem;
+  background-color: var(--dark-three);
+  color: white;
+  border: 1px solid var(--main-color);
+  border-radius: 6px;
+  font-size: 1.1rem;
+  margin-bottom: 3rem;
+}
+
+.pricing_box .bottom .p_b_bts {
+  width: 11rem;
+  letter-spacing: 3px;
+  padding: 1rem;
+  background-color: var(--main-color);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  margin-bottom: 3rem;
+}
+
+.pricing_box .bottom .p_details {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+.pricing_box .bottom .p_left {
+  width: 20%;
+  position: relative;
+  right: 5.1rem;
+}
+.pricing_box .bottom .p_left img {
+  width: 60%;
+  height: 80%;
+}
+.pricing_box .bottom .p_right {
+  width: 80%;
+  position: relative;
+  right: 1rem;
+}
+.pricing_box .bottom .p_right h3 {
+  font-size: 1rem;
+  padding: 5px;
+  opacity: 0.9;
+}
+/* *********** My Pricing End *********** */
+
+/* ********************* Contact Me Section Css ********************* */
+.contact_me {
+  margin-top: 7rem;
+}
+.contact_me h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+.contact_me p {
+  width: 50%;
+  font-size: 1rem;
+  line-height: 1.4rem;
+  color: var(--body-color);
+}
+
+form {
+  margin-top: 4rem;
+}
+
+form .input {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+input,
+textarea {
+  width: 99%;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  background-color: var(--body-background);
+  border: 1px solid var(--body-color);
+  font-size: 1rem;
+  color: white;
+  font-weight: 500;
+  resize: none;
+}
+textarea {
+  font-size: 1rem;
+}
+
+.contact_btn {
+  font-size: 1rem;
+  padding: 1rem;
+  width: 12rem;
+  letter-spacing: 1px;
+  background-color: var(--main-color);
+  color: white;
+  border: none;
+  border-radius: 0.4rem;
+  margin-top: 0.8rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  cursor: pointer;
+  margin-bottom: 4rem;
+}
+.contact_btn:hover{
+    background-color: var(--body-color);
+    color: white;
+}
+/* ********************* Contact Me Section Css  End ********************* */
+
+/* Footer  */
+footer{
+    background-color: var(--dark-two);
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .left{
+    padding: 1rem;
+    position: relative;
+    left: 4rem;
+}
+footer .left h4{
+    font-size: 1rem;
+    font-weight: 400;
+    color: white;
+    word-spacing: 2px;
+}
+footer .right{
+    padding: 1rem;
+    position: relative;
+    right: 3rem;
+}
+footer .right h4{
+    font-size: 1rem;
+    font-weight: 400;
+    color: white;
+    word-spacing: 1rem;
+}
