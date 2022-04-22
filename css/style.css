@@ -1,11 +1,14 @@
 /* ---------
 Fonts
 ----------- */
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
+  font-family: "Poppins", sans-serif;
 }
+
 /* -------------------
 Variables
 ---------------------- */
@@ -18,11 +21,12 @@ Variables
   --body-background: #21201f;
   --white: #ffffff;
 }
+
 html {
   scroll-behavior: smooth;
 }
+
 body {
-  font-family: "Poppins", sans-serif;
   background-color: var(--body-background);
 }
 
@@ -35,14 +39,10 @@ header {
   display: flex;
   justify-content: space-between;
 }
+
 /* Logo Section */
 .logo {
   padding: 1rem 0 0 0;
-}
-hr {
-  position: relative;
-  background-color: var(--body-color);
-  top: 3rem;
 }
 
 h2 {
@@ -53,8 +53,9 @@ h2 {
 
 span {
   color: var(--main-color);
-  font-weight: 500;
+  font-weight: bold;
 }
+
 /* Nav Section  */
 nav {
   display: flex;
@@ -64,12 +65,14 @@ nav li {
   list-style: none;
   padding: 1.1rem;
 }
+
 nav li a {
   text-decoration: none;
   color: var(--white);
   font-size: 1.1rem;
   font-weight: 500;
 }
+
 a:hover {
   color: #3f8905;
 }
@@ -93,16 +96,19 @@ a:hover {
   font-size: 5rem;
   font-weight: 800;
 }
+
 .h_left h5 {
   font-size: 1.2rem;
   word-spacing: 1.9rem;
   text-transform: uppercase;
   font-weight: 400;
 }
+
 .h_left p {
   font-size: 1rem;
   margin-top: 0.8rem;
   color: var(--body-color);
+  width: 75%;
 }
 
 .btn {
@@ -117,10 +123,12 @@ a:hover {
   font-weight: 400;
   cursor: pointer;
 }
+
 .btn:hover {
   color: white;
   background-color: var(--body-color);
 }
+
 /* rigth  */
 .h_right {
   width: 40%;
@@ -141,22 +149,26 @@ img {
   font-size: 3rem;
   margin-bottom: 1rem;
 }
+
 .my_services p {
   width: 50%;
   font-size: 1rem;
   line-height: 1.4rem;
   color: var(--body-color);
 }
+
 /* Boxs  */
 .boxs {
   display: flex;
   justify-content: space-between;
   margin-top: 4rem;
 }
+
 /* Left box  */
 .boxs .left {
   width: 49%;
 }
+
 /* Box box  */
 .boxs .right {
   width: 49%;
@@ -164,13 +176,15 @@ img {
 
 /* Box  */
 .box {
-  height: 32vh;
+  height: 22vh;
+  position: relative;
   border-radius: 1rem;
   background-color: var(--dark-two);
   margin-bottom: 2rem;
   display: flex;
   justify-content: space-between;
 }
+
 /* Box vitra ko left  */
 .box .left {
   width: 20%;
@@ -178,11 +192,13 @@ img {
   right: 4rem;
   padding: 1.5rem 0 0 0.5rem;
 }
+
 /* Box vitra ko right  */
 .box .right {
   width: 80%;
   padding: 1.5rem;
 }
+
 .box h3 {
   font-size: 1.5rem;
   word-spacing: 0.4rem;
@@ -190,6 +206,7 @@ img {
   font-weight: 500;
   color: white;
 }
+
 .box p {
   margin-top: 1rem;
   font-size: 1rem;
@@ -206,22 +223,26 @@ img {
   font-size: 3rem;
   margin-bottom: 1rem;
 }
+
 .my_portfolio p {
   width: 50%;
   font-size: 1rem;
   line-height: 1.4rem;
   color: var(--body-color);
 }
+
 .portfolio_box {
   display: flex;
   justify-content: space-between;
   margin-top: 4rem;
 }
+
 .portfolio_box .left,
 .portfolio_box .middle,
 .portfolio_box .right {
   width: 32%;
 }
+
 .portfolio_box .img {
   width: 100%;
   position: relative;
@@ -242,12 +263,14 @@ img {
   font-size: 3rem;
   margin-bottom: 1rem;
 }
+
 .my_customers p {
-  width: 50%;
+  width: 40%;
   font-size: 1rem;
   line-height: 1.4rem;
   color: var(--body-color);
 }
+
 /* Box  */
 .customer_box {
   margin-top: 3rem;
@@ -259,6 +282,7 @@ img {
 .customer_box .cus_right {
   width: 49%;
 }
+
 .customer_box .box {
   height: 32vh;
   display: block;
@@ -266,11 +290,12 @@ img {
 
 .customer_box p {
   padding: 2px 0 0 1rem;
-  width: 100%;
+  width: 90%;
   color: white;
   font-size: 0.9rem;
   opacity: 0.8;
 }
+
 .details {
   display: flex;
   justify-content: space-between;
@@ -282,30 +307,34 @@ img {
   right: 4rem;
   color: var(--white);
 }
+
 .details .cus_right_d {
   width: 80%;
   color: var(--white);
   padding: 0.5rem;
 }
+
 .cus_right_d h5 {
   font-size: 1.1rem;
   margin-bottom: 0.5rem;
 }
+
 h6 {
   color: var(--main-color);
   font-size: 1rem;
 }
 /* *********** My Portfolio End *********** */
 
-
 /* *********** My Pricing Start *********** */
 .my_pricings {
   margin-top: 7rem;
 }
+
 .my_pricings h2 {
   font-size: 3rem;
   margin-bottom: 1rem;
 }
+
 .my_pricings p {
   width: 50%;
   font-size: 1rem;
@@ -318,6 +347,7 @@ h6 {
   justify-content: space-between;
   margin-top: 4rem;
 }
+
 .pricing_box .p_left,
 .pricing_box .p_middle,
 .pricing_box .p_right {
@@ -330,22 +360,27 @@ h6 {
   background-color: var(--dark-three);
   display: block;
 }
+
 .pricing_box .box .top h5 {
   font-size: 1.2rem;
   color: white;
 }
+
 .pricing_box .box .top h4 {
   font-size: 2.4rem;
   font-weight: 500;
   color: white;
 }
+
 .pricing_box .box .top p {
   font-size: 1rem;
   color: var(--body-color);
 }
+
 .pricing_box .box .top hr {
   opacity: 0.2;
 }
+
 .pricing_box .box .bottom {
   margin-top: 5rem;
 }
@@ -379,20 +414,24 @@ h6 {
   justify-content: space-between;
   margin-bottom: 1rem;
 }
+
 .pricing_box .bottom .p_left {
   width: 20%;
   position: relative;
   right: 5.1rem;
 }
+
 .pricing_box .bottom .p_left img {
   width: 60%;
   height: 80%;
 }
+
 .pricing_box .bottom .p_right {
   width: 80%;
   position: relative;
   right: 1rem;
 }
+
 .pricing_box .bottom .p_right h3 {
   font-size: 1rem;
   padding: 5px;
@@ -404,10 +443,12 @@ h6 {
 .contact_me {
   margin-top: 7rem;
 }
+
 .contact_me h2 {
   font-size: 3rem;
   margin-bottom: 1rem;
 }
+
 .contact_me p {
   width: 50%;
   font-size: 1rem;
@@ -423,6 +464,7 @@ form .input {
   width: 100%;
   margin-bottom: 1rem;
 }
+
 input,
 textarea {
   width: 99%;
@@ -435,6 +477,7 @@ textarea {
   font-weight: 500;
   resize: none;
 }
+
 textarea {
   font-size: 1rem;
 }
@@ -454,148 +497,162 @@ textarea {
   cursor: pointer;
   margin-bottom: 4rem;
 }
-.contact_btn:hover{
-    background-color: var(--body-color);
-    color: white;
+
+.contact_btn:hover {
+  background-color: var(--body-color);
+  color: white;
 }
 /* ********************* Contact Me Section Css  End ********************* */
 
 /* Footer  */
-footer{
-    background-color: var(--dark-two);
-    display: flex;
-    justify-content: space-between;
+footer {
+  background-color: var(--dark-two);
+  display: flex;
+  justify-content: space-between;
 }
 
-footer .left{
-    padding: 1rem;
-    position: relative;
-    left: 4rem;
-}
-footer .left h4{
-    font-size: 1rem;
-    font-weight: 400;
-    color: white;
-    word-spacing: 2px;
-}
-footer .right{
-    padding: 1rem;
-    position: relative;
-    right: 3rem;
-}
-footer .right h4{
-    font-size: 1rem;
-    font-weight: 400;
-    color: white;
-    word-spacing: 1rem;
+footer .left {
+  padding: 1rem;
+  position: relative;
+  left: 4rem;
 }
 
+footer .left h4 {
+  font-size: 1rem;
+  font-weight: 400;
+  color: white;
+  word-spacing: 2px;
+}
+
+footer .right {
+  padding: 1rem;
+  position: relative;
+  right: 3rem;
+}
+
+footer .right h4 {
+  font-size: 1rem;
+  font-weight: 400;
+  color: white;
+  word-spacing: 1rem;
+}
 
 /* Responsive  */
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (max-width: 992px){
-  html{
+@media only screen and (max-width: 992px) {
+  html {
     font-size: 80%;
   }
-  header{
+
+  header {
     font-size: 1rem;
   }
-  
-  .pricing_box .box{
+
+  .pricing_box .box {
     height: 80vh;
   }
 }
-@media only screen and (max-width: 904px){
-  html{
+
+@media only screen and (max-width: 904px) {
+  html {
     font-size: 60%;
   }
-  .home{
+
+  .home {
     margin-bottom: 2rem;
     font-size: 1rem;
   }
-  
-  .pricing_box .box{
+
+  .pricing_box .box {
     height: 70vh;
   }
 }
 
-@media only screen and (max-width: 669px){
-  html{
+@media only screen and (max-width: 669px) {
+  html {
     font-size: 50%;
   }
-  .pricing_box .box{
+
+  .pricing_box .box {
     height: 60vh;
   }
 }
-@media only screen and (max-width: 559px){
-  html{
+
+@media only screen and (max-width: 559px) {
+  html {
     font-size: 50%;
   }
-  
-  .home{
+
+  .home {
     margin-bottom: 10rem;
     font-size: 1rem;
   }
-  .home .h_right img{
+
+  .home .h_right img {
     margin-bottom: 10rem;
   }
 }
 
-
 @media only screen and (max-width: 448px) {
-  html{
+  html {
     font-size: 40%;
   }
-  
-  .home{
+
+  .home {
     margin-bottom: 10rem;
     font-size: 1rem;
   }
-  .boxs .box{
+
+  .boxs .box {
     height: 18vh;
   }
-  .portfolio_box 
-  {
+
+  .portfolio_box {
     display: block;
   }
+
   .portfolio_box .left img,
   .portfolio_box .middle img,
-  .portfolio_box .right img{
+  .portfolio_box .right img {
     width: 50rem;
   }
-  .customer_box .box p{
+
+  .customer_box .box p {
     width: 80%;
   }
-  .customer_box .box{
-    height: 15vh; 
+
+  .customer_box .box {
+    height: 15vh;
   }
-  
-  .pricing_box .box{
+
+  .pricing_box .box {
     height: 65vh;
   }
 
-  footer{
+  footer {
     font-size: 1rem;
     display: block;
   }
-  footer .right{
+
+  footer .right {
     position: relative;
     left: 5rem;
   }
 }
 
-@media only screen and (max-width: 400px){
-  .pricing_box .box{
+@media only screen and (max-width: 400px) {
+  .pricing_box .box {
     height: 65vh;
   }
-  .portfolio_box 
-  {
+
+  .portfolio_box {
     display: block;
   }
+
   .portfolio_box .left img,
   .portfolio_box .middle img,
-  .portfolio_box .right img{
+  .portfolio_box .right img {
     width: 35rem;
   }
 }
