@@ -176,7 +176,7 @@ img {
 
 /* Box  */
 .box {
-  height: 22vh;
+  height: 30vh;
   position: relative;
   border-radius: 1rem;
   background-color: var(--dark-two);
